@@ -1,0 +1,5 @@
+# Manifesto da UoW (G1): tipo, squad, dona e classe proposta. O perfil vem da política do perímetro.
+type: feature
+squad: checkout
+owner: github:gabrielmissio
+riskClass: R2
