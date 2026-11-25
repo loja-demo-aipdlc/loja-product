@@ -20,7 +20,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  aipdlc:
+  # O job NÃO se chama aipdlc: o check exigido pelo ruleset é o que o motor publica. Com o mesmo nome, o job (que
+  # termina com sucesso mesmo quando o motor publica "Bloqueado") satisfaria o ruleset no lugar do check.
+  motor:
+    name: motor
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
