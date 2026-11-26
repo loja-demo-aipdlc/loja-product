@@ -13,6 +13,7 @@ on:
 permissions:
   contents: read
   pull-requests: read
+  issues: read          # triagem g1-t: issues e eventos de label (G1-T)
   checks: write
 
 concurrency:
